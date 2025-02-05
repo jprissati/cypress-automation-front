@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "cypress": "^14.0.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:menu": "cypress run --spec 'cypress/e2e/menu.cy.js' --browser chrome",
+    "cy:run:register": "cypress run --spec 'cypress/e2e/register.cy.js' --browser chrome",
+    "cy:run:headless:menu": "cypress run --headless --browser chrome --spec 'cypress/e2e/menu.cy.js'",
+    "cy:run:headless:register": "cypress run --headless --browser chrome --spec 'cypress/e2e/register.cy.js'"
+  }
+}
