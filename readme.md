@@ -17,7 +17,7 @@ Este projeto utiliza o **Cypress** para testes automatizados de uma aplicação 
 1. Clone o repositório e navegue até o diretório do projeto.
 2. Instale as dependências:
 
-bash
+```bash
 Copiar
 npm install
 Estrutura de Testes
@@ -29,18 +29,18 @@ register.cy.js: Testes para o preenchimento do formulário de registro com cená
 Comandos Principais
 Rodar os Testes no Modo Headless com o Chrome
 
-bash
+```bash
 Copiar
 npm run cy:run:headless
 Rodar testes específicos:
 
 Testes de Menu:
 
-bash
+```bash
 Copiar
 npm run cy:run:menu
 Testes de Registro:
 
-bash
+```bash
 Copiar
 npm run cy:run:register
